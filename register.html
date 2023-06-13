@@ -31,6 +31,7 @@
       
           <label for="psw"><b>Password</b></label>
           <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+          <p id="password-validation-msg" class="error-message"></p>
           
 
             <label for="mobile">Mobile Number:</label>
@@ -47,12 +48,13 @@
       
                         
        
-          <button type="submit" class="registerbtn">Register</button>
+          <button type="submit" class="registerbtn"  onclick="validatePassword()" >Register</button>
         </div>
       
         <div class="container signin">
           <p>Already have an account? <a href="/login.html">Sign in</a>.</p>
         </div>
       </form>
+      <SCript src="/index.js"></SCript>
 </body>
 </html>

@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: blue;
+  background-color: gray;
   overflow: hidden;
 }
 
@@ -185,3 +185,8 @@ a {
 }
 
   
+
+/* validation error message on registration form */
+.error-message {
+  color: red;
+}
